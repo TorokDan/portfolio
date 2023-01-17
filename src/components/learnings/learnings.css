@@ -1,0 +1,87 @@
+.learnings__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.learnings__school,
+.learnings__training {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 3rem;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.learnings__school:hover,
+.learnings__training:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.learnings__school h3,
+.learnings__training h3 {
+    text-align: center;
+    margin-bottom: 0.4rem;
+    color: var(--color-primary);
+}
+
+.learnings__school h5,
+.learnings__training h5 {
+    text-align: center;
+}
+
+.learnings__school h4,
+.learnings__training h4 {
+    text-align: center;
+}
+
+.learnings__training-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.learnings__training-details {
+    display: flex;
+    gap: 1rem;
+}
+
+.learnings__training-details-icon {
+    margin-top: 6px;
+    gap: 1rem;
+}
+
+/* Media queries (medium devices) */
+
+@media screen and (max-width: 1024px) {
+    .learnings__container {
+        grid-template-columns: 1fr;
+    }
+
+    .learnings__school,
+    .learnings__training {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .learnings__content {
+        padding: 1rem;
+    }
+}
+
+/* Media queries (small devices) */
+
+@media screen and (max-width: 600px) {
+    .learnings__container {
+        gap: 1rem;
+    }
+
+    .learnings__school,
+    .learnings__training {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}

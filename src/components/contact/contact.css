@@ -1,0 +1,23 @@
+.contact__container {
+    width: 40%;
+    padding-bottom: 4rem;
+    display: grid;
+    justify-content: center;
+}
+
+.contact__option {
+    background: var(--color-bg-variant);
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    width: fit-content;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: var(--transition);
+}
+
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
