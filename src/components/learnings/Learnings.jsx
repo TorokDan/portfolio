@@ -18,6 +18,7 @@ const trainings = [
         technologies: [
             "Java",
             "Spring Boot",
+            "gradle",
             "JUnit 5",
             "Projektmunka"
         ]

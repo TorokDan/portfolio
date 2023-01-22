@@ -6,10 +6,10 @@ const knowledge = [
   {
     type: "Backend",
     technologies: [
+      "Java",
+      "C#",
       "Bash",
       "Python",
-      "C#",
-      "Java",
       "SQL"
     ]
   },
@@ -20,13 +20,6 @@ const knowledge = [
       "CSS",
       "JavaScript",
       "React"
-    ]
-  },
-  {
-    type: "Linux",
-    technologies: [
-      "RedHat",
-      "Docker"
     ]
   }
 ]
