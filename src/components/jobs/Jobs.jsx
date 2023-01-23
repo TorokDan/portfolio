@@ -7,13 +7,13 @@ const jobs = [
         name: "Erste Bank",
         time: "2023 - ",
         title: "Integration Developer",
-        description: "I am developing the communation between different microservices in the infrastructure of the Bank."
+        description: "I am developing the integration between software platforms, programs and applications in the infrastructure of the company"
     },
     {
         name: "National Police Headquarters Of Hungary",
         time: "2020 - 2022",
         title: "Linux System Administrator",
-        description: "I was responsible for the Linux network of the police. I set up, monitored and troubleshot Linux servers, eliminated errors and malfunctions."
+        description: "I was responsible for company’s local Linux Network – GNU/Linux installation, management, and troubleshooting"
     }
 ]
 

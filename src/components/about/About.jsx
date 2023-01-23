@@ -1,9 +1,6 @@
 import React from 'react'
 import './about.css'
 import ME2 from '../../assets/torokdannew.jpg'
-import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
   return (
@@ -19,24 +16,6 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          {/* <div className="about__cards">
-            <article className='about__card'>
-              <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>3+ Years working</small>
-            </article>
-            <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>300+ Worldwide</small>
-            </article>
-            <article className='about__card'>
-              <VscFolderLibrary className='about__icon' />
-              <h5>Projects</h5>
-              <small>80+ Completed projects</small>
-            </article>
-          </div> */}
-
           <p>
             I am 24 years old, and I live in Budapest. I spend most of my free time with sports, like inline skating and wall climbing. I started to learn programming 5 years ago. Shortly after i wrote my first Hello World, i realized that i want to work in the IT. I started to work as a Linux system administrator, but after 2 years, i found out i enjoy more writing code, than managing systems. I believe that it is important to improve ourself, so i try tp spend time with programming in my free time as much as i can, so I can become a better developer.
           </p>
