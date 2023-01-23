@@ -27,8 +27,8 @@ const knowledge = [
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Mit Tanultam</h5>
-      <h2>Tudásom</h2>
+      <h5>What I Learned</h5>
+      <h2>My Knowledge</h2>
 
       <div className="container experience__container">
         {

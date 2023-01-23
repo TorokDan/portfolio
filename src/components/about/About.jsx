@@ -8,8 +8,8 @@ import { VscFolderLibrary } from 'react-icons/vsc'
 const About = () => {
   return (
     <section id="about">
-      <h5>Ismerj Meg</h5>
-      <h2>Magamról</h2>
+      <h5>Get To Know Me</h5>
+      <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -38,10 +38,10 @@ const About = () => {
           </div> */}
 
           <p>
-            24 éves vagyok, Budapesten élek. Szabadidőm nagy részét sportolással töltöm. 5 éve kezdtem el hobbi szinten programozni, majd hamar rájöttem, hogy ezzel is szeretnék foglalkozni. Akkori munkám mellett elkezdtem otthon tanulni, mivel felhasználói szinten régóta használtam linuxot, ezért hamar megismerkedtem a bash-el és a pythonnal. Később egyetemen elkezdtem c#-ot használni, majd végül a GreenFox-nál elvégeztem egy java backend képzést. Fontosnak tartom, hogy az ember folyamatosan tanuljon, ezért munka mellett időt szentelek önmagam fejlesztésére is.
+            I am 24 years old, and I live in Budapest. I spend most of my free time with sports, like inline skating and wall climbing. I started to learn programming 5 years ago. Shortly after i wrote my first Hello World, i realized that i want to work in the IT. I started to work as a Linux system administrator, but after 2 years, i found out i enjoy more writing code, than managing systems. I believe that it is important to improve ourself, so i try tp spend time with programming in my free time as much as i can, so I can become a better developer.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Keress meg</a>
+          <a href="#contact" className='btn btn-primary'>Contact Me</a>
         </div>
       </div>
     </section>

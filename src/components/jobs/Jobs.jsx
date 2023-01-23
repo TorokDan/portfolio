@@ -4,24 +4,24 @@ import './jobs.css'
 
 const jobs = [
     {
-        name: "Országos Rendőr-főkapitányság",
-        time: "2020 - 2022",
-        title: "Linux Rendszer Adminisztrátor",
-        description: "A rendőrségi architektúrában hibák felkutatása és elhárítása, linux alapú rendszerek monitorozása, fejlesztése."
-    },
-    {
         name: "Erste Bank",
         time: "2023 - ",
         title: "Integrációs Fejlesztő",
-        description: "A bank különböző szolgáltatásai közötti kommunikáció fejlesztése."
+        description: "I am developing the communation between different microservices in the infrastructure of the Bank."
+    },
+    {
+        name: "National Police Headquarters Of Hungary",
+        time: "2020 - 2022",
+        title: "Linux System Administrator",
+        description: "I was responsible for the Linux network of the police. I set up, monitored and troubleshot Linux servers, eliminated errors and malfunctions."
     }
 ]
 
 const Jobs = () => {
     return (
         <section id="jobs">
-            <h5>Hol dolgoztam</h5>
-            <h2>Munkahelyeim</h2>
+            <h5>Where Did I Worked</h5>
+            <h2>Experience</h2>
 
             <div className="container jobs__container">
                 {

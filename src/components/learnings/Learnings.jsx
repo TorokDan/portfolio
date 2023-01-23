@@ -4,9 +4,9 @@ import { BiCode } from 'react-icons/bi'
 
 const schools = [
     {
-        name: "Óbudai Egyetem",
+        name: "University Of Óbuda",
         year: "2022 - ",
-        cohort: "Mérnökinformatika"
+        cohort: "Computer Science And Engineering"
     }
 ]
 
@@ -19,8 +19,7 @@ const trainings = [
             "Java",
             "Spring Boot",
             "gradle",
-            "JUnit 5",
-            "Projektmunka"
+            "JUnit 5"
         ]
     }
 ]
@@ -28,8 +27,8 @@ const trainings = [
 function Learnings() {
     return (
         <section id="learnings">
-            <h5>Hol tanultam</h5>
-            <h2>Képzéseim</h2>
+            <h5>Where I Learned</h5>
+            <h2>Schools</h2>
 
             <div className="container learnings__container">
                 {

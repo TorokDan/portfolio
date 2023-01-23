@@ -9,7 +9,7 @@ const Header = () => {
     <header>
       <div className="container header__container">
         <h1>Török Dániel</h1>
-        <h5 className="text-light">Backend Fejlesztő</h5>
+        <h5 className="text-light">Backend Developer</h5>
         <CTA />
         <HeaderSocials />
 
@@ -17,7 +17,7 @@ const Header = () => {
           <img src={ME2} alt="me" />
         </div>
 
-        <a href="#contact" className='scroll__down'>Ugorj Lentre</a>
+        <a href="#contact" className='scroll__down'>Jump Down</a>
       </div>
     </header>
   )
