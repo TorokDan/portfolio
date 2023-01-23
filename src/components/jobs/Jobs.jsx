@@ -6,7 +6,7 @@ const jobs = [
     {
         name: "Erste Bank",
         time: "2023 - ",
-        title: "Integrációs Fejlesztő",
+        title: "Integration Developer",
         description: "I am developing the communation between different microservices in the infrastructure of the Bank."
     },
     {
