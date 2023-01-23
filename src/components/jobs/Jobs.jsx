@@ -20,7 +20,7 @@ const jobs = [
 const Jobs = () => {
     return (
         <section id="jobs">
-            <h5>Where Did I Worked</h5>
+            {/* <h5>Where Did I Worked</h5> */}
             <h2>Experience</h2>
 
             <div className="container jobs__container">

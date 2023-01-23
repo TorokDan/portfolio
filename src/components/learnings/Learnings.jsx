@@ -27,7 +27,7 @@ const trainings = [
 function Learnings() {
     return (
         <section id="learnings">
-            <h5>Where I Learned</h5>
+            {/* <h5>Where I Learned</h5> */}
             <h2>Schools</h2>
 
             <div className="container learnings__container">
