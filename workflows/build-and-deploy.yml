@@ -1,0 +1,41 @@
+name: Build and Deploy to Build Branch
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Kód lehúzása
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # 2. Node.js telepítése (ha React vagy más JS alapú projekt)
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+
+    # 3. Függőségek telepítése és build
+    - name: Install dependencies and build
+      run: |
+        npm install
+        npm run build
+
+    # 4. Tartalom átmásolása a build branch-re
+    - name: Deploy to Build Branch
+      run: |
+        git config user.name "Your Name"
+        git config user.email "your-email@example.com"
+        git remote set-url origin https://github.com/<username>/<repo>.git
+        git fetch origin build
+        git checkout build
+        git rm -rf .
+        cp -r build/* .
+        git add .
+        git commit -m "Deploy build $(date +'%Y-%m-%d %H:%M:%S')"
+        git push origin build --force
