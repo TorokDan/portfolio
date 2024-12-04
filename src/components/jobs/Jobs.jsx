@@ -4,10 +4,10 @@ import './jobs.css'
 
 const jobs = [
     {
-    "name": "Liligo",
-    "time": "2023 - ",
-    "title": "Junior Java Developer",
-    "description": "Responsible for planning, developing, and maintaining Java Spring Boot-based microservices with a focus on clean code and scalability."
+        name: "Liligo",
+        time: "2023 - ",
+        title: "Junior Java Developer",
+        description: "Responsible for planning, developing, and maintaining Java Spring Boot-based microservices with a focus on clean code and scalability."
     },
     {
         name: "Erste Bank",
