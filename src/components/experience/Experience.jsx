@@ -20,8 +20,7 @@ const knowledge = [
       "Gradle",
       "Kubernetes",
       "Docker",
-      "Git",
-      "test"
+      "Git"
     ]
   },
   {
