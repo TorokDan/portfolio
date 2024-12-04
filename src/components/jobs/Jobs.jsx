@@ -4,10 +4,16 @@ import './jobs.css'
 
 const jobs = [
     {
+    "name": "Liligo",
+    "time": "2023 - ",
+    "title": "Junior Java Developer",
+    "description": "Responsible for planning, developing, and maintaining Java Spring Boot-based microservices with a focus on clean code and scalability."
+    },
+    {
         name: "Erste Bank",
-        time: "2023 - ",
+        time: "2023",
         title: "Integration Developer",
-        description: "I am developing the integration between software platforms, programs and applications in the infrastructure of the company"
+        description: "I was developing the integration between software platforms, programs and applications in the infrastructure of the company"
     },
     {
         name: "National Police Headquarters Of Hungary",
