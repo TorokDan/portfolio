@@ -1,8 +1,10 @@
 .contact__container {
-    width: 40%;
-    padding-bottom: 4rem;
-    display: grid;
-    justify-content: center;
+    width: 100%; /* A teljes szélességet használja */
+    display: flex; /* Flexbox használata */
+    justify-content: center; /* Középre igazítás */
+    gap: 2rem; /* Távolság a dobozok között */
+    flex-wrap: wrap; /* Több sorba törés kisebb képernyőn */
+    padding-bottom: 8rem;
 }
 
 .contact__option {
@@ -10,14 +12,15 @@
     text-align: center;
     border: 1px solid transparent;
     border-radius: 2rem;
-    width: fit-content;
     padding: 2rem;
-    margin-bottom: 2rem;
     transition: var(--transition);
+    flex: 1 1 calc(30% - 2rem); /* Szélesség 30%-ra állítva, de rugalmas */
+    max-width: 300px; /* Maximális szélesség korlátozása */
+    min-width: 200px; /* Minimum szélesség */
 }
 
 .contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
-    cursor: default;
+    cursor: pointer; /* Kattinthatóság jelzése */
 }

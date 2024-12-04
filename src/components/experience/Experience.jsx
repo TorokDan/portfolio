@@ -4,13 +4,31 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 
 const knowledge = [
   {
-    type: "Backend",
+    type: "Programming and Scripting Languages",
     technologies: [
       "Java",
-      "C#",
-      "Bash",
       "Python",
-      "SQL"
+      "Bash",
+      "Groovy"
+    ]
+  },
+  {
+    type: "Frameworks and Tools",
+    technologies: [
+      "Spring Boot",
+      "Maven",
+      "Gradle",
+      "Kubernetes",
+      "Docker",
+      "Git"
+    ]
+  },
+  {
+    type: "Databases and Search Technologies",
+    technologies: [
+      "MySQL",
+      "Elasticsearch",
+      "Kibana"
     ]
   },
   {
@@ -18,8 +36,7 @@ const knowledge = [
     technologies: [
       "HTML",
       "CSS",
-      "JavaScript",
-      "React"
+      "JavaScript"
     ]
   }
 ]
