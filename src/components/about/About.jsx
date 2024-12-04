@@ -17,7 +17,12 @@ const About = () => {
 
         <div className="about__content">
           <p>
-            I am 24 years old, and I live in Budapest. I spend most of my free time with sports, like inline skating and wall climbing. I started to learn programming 5 years ago. Shortly after I wrote my first Hello World, I realized that I want to work in the IT. I started to work as a Linux system administrator, but after 2 years, I found out I enjoy more writing code, than managing systems. I believe it is important to learn and  improve, in my free time I spend as much time as I can with programming, so I can become a great developer.
+            I am a passionate backend developer who strives to write clean, maintainable, and easy-to-understand code.
+            Over the years, I have specialized in Java-based technologies and the design and development of microservices architectures.
+            My professional journey began as a Linux system administrator, where I gained valuable experience in managing systems and ensuring their reliability.
+            However, I soon discovered that my true passion lies in coding and creating solutions that directly impact users and businesses.
+            In my free time, I enjoy sports like inline skating and wall climbing, which help me stay focused and energized.
+            I am also deeply committed to continuous learning and improving my skills, exploring new technologies, and expanding my knowledge to become a better developer every day. For me, programming is not just a job but a craft I take pride in perfecting.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Contact Me</a>
