@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.d031b2c1.css",
-    "main.js": "/static/js/main.f19900da.js",
+    "main.js": "/static/js/main.0bd59054.js",
     "static/media/stand.png": "/static/media/stand.09bcd2534f5d43a6de7c.png",
     "static/media/torokdannew.jpg": "/static/media/torokdannew.7b54f25c77abfaa277be.jpg",
-    "static/media/cv.pdf": "/static/media/cv.c875afeac8bc5f5d629c.pdf",
+    "static/media/cv.pdf": "/static/media/cv.1e7670bcfa53dea0f2f8.pdf",
     "index.html": "/index.html",
     "main.d031b2c1.css.map": "/static/css/main.d031b2c1.css.map",
-    "main.f19900da.js.map": "/static/js/main.f19900da.js.map"
+    "main.0bd59054.js.map": "/static/js/main.0bd59054.js.map"
   },
   "entrypoints": [
     "static/css/main.d031b2c1.css",
-    "static/js/main.f19900da.js"
+    "static/js/main.0bd59054.js"
   ]
 }
