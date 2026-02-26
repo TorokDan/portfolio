@@ -2,7 +2,7 @@
   "personal": {
     "name": "Török Dániel",
     "title": "Backend Fejlesztő",
-    "bio": "Szenvedélyes backend fejlesztő vagyok, aki tiszta, karbantartható és könnyen érthető kódot törekszik írni. Az évek során Java-alapú technológiákra és mikroszolgáltatás-architektúrák tervezésére és fejlesztésére specializálódtam. Szakmai pályafutásom Linux rendszeradminisztrátorként kezdődött, ahol értékes tapasztalatot szereztem rendszerek kezelésében és megbízhatóságuk biztosításában. Hamarosan felfedeztem azonban, hogy igazi szenvedélyem a kódolás és olyan megoldások létrehozása, amelyek közvetlen hatással vannak a felhasználókra és a vállalkozásokra. Szabadidőmben olyan sportokat kedvelek, mint az inline korcsolyázás és a falmászás, amelyek segítenek fókuszálni és energikusnak maradni. Elkötelezett vagyok a folyamatos tanulás és képességeim fejlesztése iránt is – új technológiákat fedezek fel és bővítem tudásom, hogy minden nap jobb fejlesztővé váljak. Számomra a programozás nem csupán egy munka, hanem egy mesterség, amelynek tökéletesítésére büszke vagyok.",
+    "bio": "Backend fejlesztőként olyan rendszereket tervezek és építek, amelyek hosszú távon is stabilak, skálázhatóak és fenntarthatóak. Elsősorban Java-alapú technológiákkal dolgozom, és kiemelten érdekelnek a mikroszolgáltatás-alapú architektúrák, valamint a jól strukturált, tiszta kód. Folyamatosan képzem magam, új technológiákat próbálok ki, és célom, hogy minden projektben magasabb szintre emeljem a szakmai minőséget.",
     "email": "dani.torok8@gmail.com",
     "linkedin": "https://www.linkedin.com/in/török-dániel",
     "github": "https://github.com/TorokDan",
@@ -38,24 +38,20 @@
 
   "skills": [
     {
-      "category": "Programozási és szkriptnyelvek",
-      "items": ["Java", "Python", "Bash", "Groovy"]
+      "category": "Backend",
+      "items": ["Java", "Spring Boot", "REST", "Microservice", "Maven"]
     },
     {
-      "category": "Keretrendszerek és eszközök",
-      "items": ["Spring Boot", "Spring Security", "Maven", "Gradle", "Kubernetes", "Docker", "Git", "CI/CD", "Helm"]
+      "category": "Adatbázis",
+      "items": ["PostgreSQL", "Elasticsearch", "MySQL", "Liquibase", "Flyway"]
     },
     {
-      "category": "Adatbázisok és keresési technológiák",
-      "items": ["MySQL", "PostgreSQL", "Elasticsearch", "Kibana", "Liquibase", "Flyway"]
+      "category": "Platform",
+      "items": ["Docker", "Kubernetes", "CI/CD", "Git", "Linux"]
     },
     {
-      "category": "Backend és architektúra",
-      "items": ["REST API", "Mikroszolgáltatások", "OAuth2", "Linux"]
-    },
-    {
-      "category": "Frontend",
-      "items": ["HTML", "CSS", "JavaScript"]
+      "category": "Egyéb",
+      "items": ["Python", "Bash", "C#"]
     }
   ],
 
@@ -64,19 +60,19 @@
       "company": "OTP Bank Nyrt.",
       "period": "2025 - jelen",
       "title": "Java Backend Fejlesztő",
-      "description": "Java Spring Boot mikroszolgáltatások fejlesztése és karbantartása banki környezetben. PostgreSQL és Liquibase használata adatbázis-kezeléshez, Spring Security OAuth2-vel a hitelesítéshez, valamint Docker, CI/CD pipeline-ok, Helm és Kubernetes alapú deployment."
+      "description": "Részvétel banki core rendszer migrációt megvalósító mikroszervíz architektúra fejlesztésében."
     },
     {
       "company": "Liligo",
       "period": "2023 - 2025",
       "title": "Junior Java Fejlesztő",
-      "description": "Java Spring Boot mikroszolgáltatások tervezése, fejlesztése és karbantartása. REST API-k fejlesztése Elasticsearch és MySQL integrációval, Flyway segítségével adatbázis-migrációk kezelése."
+      "description": "Java Spring Boot alapú mikroszervízek tervezése, fejlesztése és karbantartása."
     },
     {
       "company": "Erste Bank",
       "period": "2023",
       "title": "Integrációs Fejlesztő",
-      "description": "Szoftverplatformok, programok és alkalmazások közötti integrációt fejlesztettem a vállalat infrastruktúrájában."
+      "description": "Szoftverplatformok, programok és alkalmazások közötti integráció fejlesztése a vállalat infrastruktúrájában."
     },
     {
       "company": "Magyarország Rendőrfőkapitánysága",
@@ -90,7 +86,7 @@
     "schools": [
       {
         "name": "Óbudai Egyetem",
-        "period": "2022 - jelen",
+        "period": "2022 - Megkezdett tanulmányok",
         "field": "Mérnökinformatika"
       }
     ],
@@ -104,8 +100,8 @@
       {
         "name": "Training 360",
         "period": "2024",
-        "field": "Backend / Platform fejlesztés",
-        "technologies": ["Java", "Spring Boot", "Docker", "Kubernetes"]
+        "field": "Linux képzések",
+        "technologies": []
       }
     ]
   }
