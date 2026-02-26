@@ -3,13 +3,14 @@ import CTA from './CTA'
 import './header.css'
 import ME2 from '../../assets/stand.png'
 import HeaderSocials from './HeaderSocials'
+import content from '../../data/content.json'
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h1>Török Dániel</h1>
-        <h5 className="text-light">Backend Developer</h5>
+        <h1>{content.personal.name}</h1>
+        <h5 className="text-light">{content.personal.title}</h5>
         <CTA />
         <HeaderSocials />
 
