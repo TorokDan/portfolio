@@ -3,9 +3,11 @@ import CTA from './CTA'
 import './header.css'
 import ME2 from '../../assets/stand.png'
 import HeaderSocials from './HeaderSocials'
-import content from '../../data/content.json'
+import { useLanguage } from '../../context/LanguageContext'
 
 const Header = () => {
+  const { content } = useLanguage()
+
   return (
     <header>
       <div className="container header__container">
@@ -18,10 +20,12 @@ const Header = () => {
           <img src={ME2} alt="me" />
         </div>
 
-        <a href="#contact" className='scroll__down'>Jump Down</a>
+        <a href="#contact" className='scroll__down'>{content.ui.header.scrollDown}</a>
       </div>
     </header>
   )
 }
+
+export default Header
 
 export default Header

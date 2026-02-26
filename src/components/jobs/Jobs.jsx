@@ -1,12 +1,14 @@
 import React from 'react'
 import { MdWork } from 'react-icons/md'
 import './jobs.css'
-import content from '../../data/content.json'
+import { useLanguage } from '../../context/LanguageContext'
 
 const Jobs = () => {
+    const { content } = useLanguage()
+
     return (
         <section id="jobs">
-            <h2>Experience</h2>
+            <h2>{content.ui.jobs.heading}</h2>
 
             <div className="container jobs__container">
                 {content.jobs.map(({ company, period, title, description }) => (

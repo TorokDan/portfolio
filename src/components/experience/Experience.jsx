@@ -1,12 +1,14 @@
 import React from 'react'
 import './experience.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
-import content from '../../data/content.json'
+import { useLanguage } from '../../context/LanguageContext'
 
 const Experience = () => {
+  const { content } = useLanguage()
+
   return (
     <section id='experience'>
-      <h2>My Knowledge</h2>
+      <h2>{content.ui.skills.heading}</h2>
 
       <div className="container experience__container">
         {content.skills.map(({ category, items }) => (
@@ -28,5 +30,7 @@ const Experience = () => {
     </section>
   )
 }
+
+export default Experience
 
 export default Experience

@@ -13,6 +13,7 @@ nav {
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+    align-items: center;
 }
 
 nav a {
@@ -29,6 +30,40 @@ nav a:hover {
 }
 
 nav a.active {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+/* Language toggle */
+
+.nav__lang {
+    display: flex;
+    gap: 0.2rem;
+    margin-left: 0.4rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    padding-left: 0.8rem;
+}
+
+.nav__lang button {
+    background: transparent;
+    border: none;
+    color: var(--color-light);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.4rem 0.6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+    font-family: inherit;
+    letter-spacing: 0.05em;
+}
+
+.nav__lang button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: var(--color-white);
+}
+
+.nav__lang button.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }

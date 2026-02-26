@@ -9,6 +9,33 @@
     "codewars": "https://codewars.com/users/Osztor"
   },
 
+  "ui": {
+    "header": {
+      "scrollDown": "Jump Down",
+      "downloadCv": "Download CV",
+      "contactButton": "Contact Me"
+    },
+    "about": {
+      "heading": "About Me",
+      "contactButton": "Contact Me"
+    },
+    "skills": {
+      "heading": "My Knowledge"
+    },
+    "education": {
+      "heading": "Schools"
+    },
+    "jobs": {
+      "heading": "Experience"
+    },
+    "contact": {
+      "heading": "Contact Me",
+      "emailAction": "Send a message",
+      "linkedinAction": "View Profile",
+      "githubAction": "Visit GitHub"
+    }
+  },
+
   "skills": [
     {
       "category": "Programming and Scripting Languages",

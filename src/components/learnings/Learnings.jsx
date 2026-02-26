@@ -1,12 +1,14 @@
 import React from 'react'
 import './learnings.css'
 import { BiCode } from 'react-icons/bi'
-import content from '../../data/content.json'
+import { useLanguage } from '../../context/LanguageContext'
 
 function Learnings() {
+    const { content } = useLanguage()
+
     return (
         <section id="learnings">
-            <h2>Schools</h2>
+            <h2>{content.ui.education.heading}</h2>
 
             <div className="container learnings__container">
                 {content.education.schools.map(({ name, period, field }) => (

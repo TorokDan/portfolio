@@ -1,0 +1,96 @@
+{
+  "personal": {
+    "name": "Török Dániel",
+    "title": "Backend Fejlesztő",
+    "bio": "Szenvedélyes backend fejlesztő vagyok, aki tiszta, karbantartható és könnyen érthető kódot törekszik írni. Az évek során Java-alapú technológiákra és mikroszolgáltatás-architektúrák tervezésére és fejlesztésére specializálódtam. Szakmai pályafutásom Linux rendszeradminisztrátorként kezdődött, ahol értékes tapasztalatot szereztem rendszerek kezelésében és megbízhatóságuk biztosításában. Hamarosan felfedeztem azonban, hogy igazi szenvedélyem a kódolás és olyan megoldások létrehozása, amelyek közvetlen hatással vannak a felhasználókra és a vállalkozásokra. Szabadidőmben olyan sportokat kedvelek, mint az inline korcsolyázás és a falmászás, amelyek segítenek fókuszálni és energikusnak maradni. Elkötelezett vagyok a folyamatos tanulás és képességeim fejlesztése iránt is – új technológiákat fedezek fel és bővítem tudásom, hogy minden nap jobb fejlesztővé váljak. Számomra a programozás nem csupán egy munka, hanem egy mesterség, amelynek tökéletesítésére büszke vagyok.",
+    "email": "dani.torok8@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/török-dániel",
+    "github": "https://github.com/TorokDan",
+    "codewars": "https://codewars.com/users/Osztor"
+  },
+
+  "ui": {
+    "header": {
+      "scrollDown": "Lejjebb",
+      "downloadCv": "CV letöltése",
+      "contactButton": "Kapcsolatfelvétel"
+    },
+    "about": {
+      "heading": "Rólam",
+      "contactButton": "Kapcsolatfelvétel"
+    },
+    "skills": {
+      "heading": "Tudásom"
+    },
+    "education": {
+      "heading": "Tanulmányok"
+    },
+    "jobs": {
+      "heading": "Tapasztalat"
+    },
+    "contact": {
+      "heading": "Kapcsolat",
+      "emailAction": "Üzenet küldése",
+      "linkedinAction": "Profil megtekintése",
+      "githubAction": "GitHub meglátogatása"
+    }
+  },
+
+  "skills": [
+    {
+      "category": "Programozási és szkriptnyelvek",
+      "items": ["Java", "Python", "Bash", "Groovy"]
+    },
+    {
+      "category": "Keretrendszerek és eszközök",
+      "items": ["Spring Boot", "Maven", "Gradle", "Kubernetes", "Docker", "Git"]
+    },
+    {
+      "category": "Adatbázisok és keresési technológiák",
+      "items": ["MySQL", "Elasticsearch", "Kibana"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+
+  "jobs": [
+    {
+      "company": "Liligo",
+      "period": "2023 - jelen",
+      "title": "Junior Java Fejlesztő",
+      "description": "Java Spring Boot alapú mikroszolgáltatások tervezéséért, fejlesztéséért és karbantartásáért vagyok felelős, a tiszta kódra és a skálázhatóságra összpontosítva."
+    },
+    {
+      "company": "Erste Bank",
+      "period": "2023",
+      "title": "Integrációs Fejlesztő",
+      "description": "Szoftverplatformok, programok és alkalmazások közötti integrációt fejlesztettem a vállalat infrastruktúrájában."
+    },
+    {
+      "company": "Magyarország Rendőrfőkapitánysága",
+      "period": "2020 - 2022",
+      "title": "Linux Rendszeradminisztrátor",
+      "description": "Felelős voltam a szervezet helyi Linux hálózatáért – GNU/Linux telepítéséért, kezeléséért és hibaelhárításáért."
+    }
+  ],
+
+  "education": {
+    "schools": [
+      {
+        "name": "Óbudai Egyetem",
+        "period": "2022 - jelen",
+        "field": "Mérnökinformatika"
+      }
+    ],
+    "trainings": [
+      {
+        "name": "GreenFox Academy",
+        "period": "2022",
+        "field": "Java backend",
+        "technologies": ["Java", "Spring Boot", "Gradle", "JUnit 5"]
+      }
+    ]
+  }
+}

@@ -1,12 +1,14 @@
 import React from 'react'
 import './about.css'
 import ME2 from '../../assets/torokdannew.jpg'
-import content from '../../data/content.json'
+import { useLanguage } from '../../context/LanguageContext'
 
 const About = () => {
+  const { content } = useLanguage()
+
   return (
     <section id="about">
-      <h2>About Me</h2>
+      <h2>{content.ui.about.heading}</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -17,11 +19,13 @@ const About = () => {
 
         <div className="about__content">
           <p>{content.personal.bio}</p>
-          <a href="#contact" className='btn btn-primary'>Contact Me</a>
+          <a href="#contact" className='btn btn-primary'>{content.ui.about.contactButton}</a>
         </div>
       </div>
     </section>
   )
 }
+
+export default About
 
 export default About
