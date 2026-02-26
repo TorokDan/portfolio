@@ -1,5 +1,4 @@
 import React from 'react'
-import { MdWork } from 'react-icons/md'
 import './jobs.css'
 import { useLanguage } from '../../context/LanguageContext'
 
@@ -15,13 +14,8 @@ const Jobs = () => {
                     <div key={company}>
                         <h5>{period}</h5>
                         <h3>{company}</h3>
-                        <article className='jobs__details'>
-                            <MdWork className='jobs__details-icon' />
-                            <div>
-                                <h4>{title}</h4>
-                                <small className='text-light'>{description}</small>
-                            </div>
-                        </article>
+                        <h4>{title}</h4>
+                        <p className='text-light'>{description}</p>
                     </div>
                 ))}
             </div>
