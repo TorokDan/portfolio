@@ -43,11 +43,15 @@
     },
     {
       "category": "Keretrendszerek és eszközök",
-      "items": ["Spring Boot", "Maven", "Gradle", "Kubernetes", "Docker", "Git"]
+      "items": ["Spring Boot", "Spring Security", "Maven", "Gradle", "Kubernetes", "Docker", "Git", "CI/CD", "Helm"]
     },
     {
       "category": "Adatbázisok és keresési technológiák",
-      "items": ["MySQL", "Elasticsearch", "Kibana"]
+      "items": ["MySQL", "PostgreSQL", "Elasticsearch", "Kibana", "Liquibase", "Flyway"]
+    },
+    {
+      "category": "Backend és architektúra",
+      "items": ["REST API", "Mikroszolgáltatások", "OAuth2", "Linux"]
     },
     {
       "category": "Frontend",
@@ -57,10 +61,16 @@
 
   "jobs": [
     {
+      "company": "OTP Bank Nyrt.",
+      "period": "2025 - jelen",
+      "title": "Java Backend Fejlesztő",
+      "description": "Java Spring Boot mikroszolgáltatások fejlesztése és karbantartása banki környezetben. PostgreSQL és Liquibase használata adatbázis-kezeléshez, Spring Security OAuth2-vel a hitelesítéshez, valamint Docker, CI/CD pipeline-ok, Helm és Kubernetes alapú deployment."
+    },
+    {
       "company": "Liligo",
-      "period": "2023 - jelen",
+      "period": "2023 - 2025",
       "title": "Junior Java Fejlesztő",
-      "description": "Java Spring Boot alapú mikroszolgáltatások tervezéséért, fejlesztéséért és karbantartásáért vagyok felelős, a tiszta kódra és a skálázhatóságra összpontosítva."
+      "description": "Java Spring Boot mikroszolgáltatások tervezése, fejlesztése és karbantartása. REST API-k fejlesztése Elasticsearch és MySQL integrációval, Flyway segítségével adatbázis-migrációk kezelése."
     },
     {
       "company": "Erste Bank",
@@ -90,6 +100,12 @@
         "period": "2022",
         "field": "Java backend",
         "technologies": ["Java", "Spring Boot", "Gradle", "JUnit 5"]
+      },
+      {
+        "name": "Training 360",
+        "period": "2024",
+        "field": "Backend / Platform fejlesztés",
+        "technologies": ["Java", "Spring Boot", "Docker", "Kubernetes"]
       }
     ]
   }

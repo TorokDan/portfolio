@@ -43,11 +43,15 @@
     },
     {
       "category": "Frameworks and Tools",
-      "items": ["Spring Boot", "Maven", "Gradle", "Kubernetes", "Docker", "Git"]
+      "items": ["Spring Boot", "Spring Security", "Maven", "Gradle", "Kubernetes", "Docker", "Git", "CI/CD", "Helm"]
     },
     {
       "category": "Databases and Search Technologies",
-      "items": ["MySQL", "Elasticsearch", "Kibana"]
+      "items": ["MySQL", "PostgreSQL", "Elasticsearch", "Kibana", "Liquibase", "Flyway"]
+    },
+    {
+      "category": "Backend & Architecture",
+      "items": ["REST API", "Microservices", "OAuth2", "Linux"]
     },
     {
       "category": "Frontend",
@@ -57,10 +61,16 @@
 
   "jobs": [
     {
+      "company": "OTP Bank Nyrt.",
+      "period": "2025 - present",
+      "title": "Java Backend Developer",
+      "description": "Developing and maintaining Java Spring Boot microservices in a banking environment. Working with PostgreSQL and Liquibase for database management, Spring Security with OAuth2 for authentication, and deploying via Docker, CI/CD pipelines, Helm, and Kubernetes."
+    },
+    {
       "company": "Liligo",
-      "period": "2023 - present",
+      "period": "2023 - 2025",
       "title": "Junior Java Developer",
-      "description": "Responsible for planning, developing, and maintaining Java Spring Boot-based microservices with a focus on clean code and scalability."
+      "description": "Planning, developing, and maintaining Java Spring Boot microservices. Built and maintained REST APIs integrated with Elasticsearch and MySQL, using Flyway for database migrations."
     },
     {
       "company": "Erste Bank",
@@ -90,6 +100,12 @@
         "period": "2022",
         "field": "Java backend",
         "technologies": ["Java", "Spring Boot", "Gradle", "JUnit 5"]
+      },
+      {
+        "name": "Training 360",
+        "period": "2024",
+        "field": "Backend / Platform Development",
+        "technologies": ["Java", "Spring Boot", "Docker", "Kubernetes"]
       }
     ]
   }
