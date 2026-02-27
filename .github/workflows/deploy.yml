@@ -1,0 +1,36 @@
+name: Deploy to DigitalOcean App Platform
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DO_API_TOKEN }}
+      - name: Deploy to DigitalOcean App Platform
+        env:
+          DO_API_TOKEN: ${{ secrets.DO_API_TOKEN }}
+          DO_APP_ID: ${{ secrets.DO_APP_ID }}
+        run: |
+          doctl auth init -t "$DO_API_TOKEN"
+          if [ -z "$DO_APP_ID" ]; then
+            doctl apps create --spec .do/app.yaml
+          else
+            doctl apps update "$DO_APP_ID" --spec .do/app.yaml
+          fi

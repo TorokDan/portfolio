@@ -1,0 +1,9 @@
+name: portfolio-app
+region: nyc
+static_sites:
+  - name: portfolio-static
+    github:
+      repo: TorokDan/portfolio
+      branch: main
+    build_command: npm ci && npm run build
+    output_dir: build
