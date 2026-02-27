@@ -2,6 +2,7 @@
 
 Personal portfolio website for Török Dániel, a Backend Developer based in Hungary.
 Built with React, styled with plain CSS, with multi-language support (English / Hungarian).
+Deployed via GitHub Actions to DigitalOcean App Platform.
 
 ## Quick Start
 
