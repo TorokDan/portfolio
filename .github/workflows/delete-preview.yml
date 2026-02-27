@@ -1,4 +1,4 @@
-name: Delete PR Preview
+name: Delete Preview
 
 on:
   pull_request:
