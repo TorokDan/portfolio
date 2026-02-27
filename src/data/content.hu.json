@@ -1,0 +1,108 @@
+{
+  "personal": {
+    "name": "Török Dániel",
+    "title": "Backend Fejlesztő",
+    "bio": "Backend fejlesztőként olyan rendszereket tervezek és építek, amelyek hosszú távon is stabilak, skálázhatóak és fenntarthatóak. Elsősorban Java-alapú technológiákkal dolgozom, és kiemelten érdekelnek a mikroszolgáltatás-alapú architektúrák, valamint a jól strukturált, tiszta kód. Folyamatosan képzem magam, új technológiákat próbálok ki, és célom, hogy minden projektben magasabb szintre emeljem a szakmai minőséget.",
+    "email": "dani.torok8@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/török-dániel",
+    "github": "https://github.com/TorokDan",
+    "codewars": "https://codewars.com/users/Osztor"
+  },
+
+  "ui": {
+    "header": {
+      "scrollDown": "Lejjebb",
+      "downloadCv": "CV letöltése",
+      "contactButton": "Kapcsolatfelvétel"
+    },
+    "about": {
+      "heading": "Rólam",
+      "contactButton": "Kapcsolatfelvétel"
+    },
+    "skills": {
+      "heading": "Tudásom"
+    },
+    "education": {
+      "heading": "Tanulmányok"
+    },
+    "jobs": {
+      "heading": "Tapasztalat"
+    },
+    "contact": {
+      "heading": "Kapcsolat",
+      "emailAction": "Üzenet küldése",
+      "linkedinAction": "Profil megtekintése",
+      "githubAction": "GitHub meglátogatása"
+    }
+  },
+
+  "skills": [
+    {
+      "category": "Backend",
+      "items": ["Java", "Spring Boot", "REST", "Microservice", "Maven"]
+    },
+    {
+      "category": "Adatbázis",
+      "items": ["PostgreSQL", "Elasticsearch", "MySQL", "Liquibase", "Flyway"]
+    },
+    {
+      "category": "Platform",
+      "items": ["Docker", "Kubernetes", "CI/CD", "Git", "Linux"]
+    },
+    {
+      "category": "Egyéb",
+      "items": ["Python", "Bash", "C#"]
+    }
+  ],
+
+  "jobs": [
+    {
+      "company": "OTP Bank Nyrt.",
+      "period": "2025 - jelenleg",
+      "title": "Java Backend Fejlesztő",
+      "description": "Részvétel banki core rendszer migrációt megvalósító mikroszervíz architektúra fejlesztésében."
+    },
+    {
+      "company": "Liligo",
+      "period": "2023 - 2025",
+      "title": "Junior Java Fejlesztő",
+      "description": "Java Spring Boot alapú mikroszervízek tervezése, fejlesztése, monitorozása és karbantartása."
+    },
+    {
+      "company": "Erste Bank",
+      "period": "2023",
+      "title": "Integrációs Fejlesztő",
+      "description": "Szoftverplatformok, programok és alkalmazások közötti integráció fejlesztése a vállalat infrastruktúrájában."
+    },
+    {
+      "company": "Magyarország Rendőrfőkapitánysága",
+      "period": "2020 - 2022",
+      "title": "Linux Rendszeradminisztrátor",
+      "description": "Linux szerverek telepítése, kezelése és hozzájuk köthető hibák monitorozása/elhárítása"
+    }
+  ],
+
+  "education": {
+    "schools": [
+      {
+        "name": "Óbudai Egyetem",
+        "period": "2022 - Megkezdett tanulmányok",
+        "field": "Mérnökinformatika"
+      }
+    ],
+    "trainings": [
+      {
+        "name": "GreenFox Academy",
+        "period": "2022",
+        "field": "Java backend",
+        "technologies": ["Java", "Spring Boot", "Gradle", "JUnit 5"]
+      },
+      {
+        "name": "Training 360",
+        "period": "2020",
+        "field": "Linux képzések",
+        "technologies": []
+      }
+    ]
+  }
+}

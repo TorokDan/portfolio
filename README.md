@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# Török Dániel — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio website for Török Dániel, a Backend Developer based in Hungary.
+Built with React, styled with plain CSS, with multi-language support (English / Hungarian).
 
-## Available Scripts
+## Quick Start
 
-In the project directory, you can run:
+```bash
+npm install
+npm start       # http://localhost:3000
+npm run build   # production build
+```
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Update Content
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+All content lives in two files — one per language.
+**You never need to touch any other file** just to update text, add a job, or change a link.
 
-### `npm test`
+| File | Language |
+|------|----------|
+| `src/data/content.en.json` | English |
+| `src/data/content.hu.json` | Hungarian |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Both files have the same structure. Edit both to keep languages in sync.
 
-### `npm run build`
+### Add a new job
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open `src/data/content.en.json` (and the Hungarian version) and add an object to the `jobs` array:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```json
+"jobs": [
+  {
+    "company": "New Company",
+    "period": "2024 - present",
+    "title": "Senior Java Developer",
+    "description": "What you do there."
+  }
+]
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Add a new skill
 
-### `npm run eject`
+Add an item to an existing category's `items` array, or add a whole new category:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```json
+"skills": [
+  {
+    "category": "New Category",
+    "items": ["Tool A", "Tool B"]
+  }
+]
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Update personal info, bio or links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Edit the `personal` block:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```json
+"personal": {
+  "name": "Your Name",
+  "title": "Your Job Title",
+  "bio": "Your bio text...",
+  "email": "your@email.com",
+  "linkedin": "https://linkedin.com/in/...",
+  "github": "https://github.com/...",
+  "codewars": "https://codewars.com/users/..."
+}
+```
 
-## Learn More
+### Translate UI labels (buttons, section headings)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Every visible text label is in the `ui` block of each content file:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```json
+"ui": {
+  "header":    { "scrollDown": "...", "downloadCv": "...", "contactButton": "..." },
+  "about":     { "heading": "...", "contactButton": "..." },
+  "skills":    { "heading": "..." },
+  "education": { "heading": "..." },
+  "jobs":      { "heading": "..." },
+  "contact":   { "heading": "...", "emailAction": "...", "linkedinAction": "...", "githubAction": "..." }
+}
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Language Switching
 
-### Analyzing the Bundle Size
+The site supports English and Hungarian out of the box.
+A toggle in the bottom navigation bar switches between **EN** and **HU** — no page reload needed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To add a third language:
+1. Create `src/data/content.xx.json` (copy from `.en.json` and translate)
+2. Register it in `src/context/LanguageContext.jsx`:
+   ```js
+   import xx from '../data/content.xx.json'
+   const languages = { en, hu, xx }
+   ```
+3. Add a button to `src/components/nav/Nav.jsx`
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Project Structure
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+src/
+├── data/
+│   ├── content.en.json        <- English content  (edit to update the site)
+│   └── content.hu.json        <- Hungarian content (edit to update the site)
+├── context/
+│   └── LanguageContext.jsx    <- language state, useLanguage() hook
+├── components/
+│   ├── header/     hero section, CTA buttons, social links
+│   ├── nav/        fixed bottom navigation + language toggle
+│   ├── about/      bio and profile photo
+│   ├── experience/ skill categories
+│   ├── learnings/  education and training history
+│   ├── jobs/       work history
+│   └── contact/    email, LinkedIn, GitHub links
+├── assets/         images, CV pdf, background texture
+├── App.jsx
+└── index.css       global styles and CSS variables
+```
