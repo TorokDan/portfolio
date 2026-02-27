@@ -2,6 +2,7 @@ import React from 'react'
 import { LanguageProvider } from './context/LanguageContext'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
+import LangToggle from './components/langtoggle/LangToggle'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Learnings from './components/learnings/Learnings'
@@ -11,6 +12,7 @@ import Contact from './components/contact/Contact'
 const App = () => {
   return (
     <LanguageProvider>
+      <LangToggle />
       <Header />
       <Nav />
       <About />
