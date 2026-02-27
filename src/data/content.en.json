@@ -1,0 +1,108 @@
+{
+  "personal": {
+    "name": "Török Dániel",
+    "title": "Backend Developer",
+    "bio": "As a backend developer, I design and build systems that are stable, scalable, and maintainable in the long term. I primarily work with Java-based technologies and have a strong interest in microservices architecture and well-structured, clean code. I continuously invest in improving my skills, explore new technologies, and aim to raise the professional standard of every project I contribute to.",
+    "email": "dani.torok8@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/török-dániel",
+    "github": "https://github.com/TorokDan",
+    "codewars": "https://codewars.com/users/Osztor"
+  },
+
+  "ui": {
+    "header": {
+      "scrollDown": "Jump Down",
+      "downloadCv": "Download CV",
+      "contactButton": "Contact Me"
+    },
+    "about": {
+      "heading": "About Me",
+      "contactButton": "Contact Me"
+    },
+    "skills": {
+      "heading": "My Knowledge"
+    },
+    "education": {
+      "heading": "Schools"
+    },
+    "jobs": {
+      "heading": "Experience"
+    },
+    "contact": {
+      "heading": "Contact Me",
+      "emailAction": "Send a message",
+      "linkedinAction": "View Profile",
+      "githubAction": "Visit GitHub"
+    }
+  },
+
+  "skills": [
+    {
+      "category": "Backend",
+      "items": ["Java", "Spring Boot", "REST", "Microservice", "Maven"]
+    },
+    {
+      "category": "Database",
+      "items": ["PostgreSQL", "Elasticsearch", "MySQL", "Liquibase", "Flyway"]
+    },
+    {
+      "category": "Platform",
+      "items": ["Docker", "Kubernetes", "CI/CD", "Git", "Linux"]
+    },
+    {
+      "category": "Other",
+      "items": ["Python", "Bash", "C#"]
+    }
+  ],
+
+  "jobs": [
+    {
+      "company": "OTP Bank Nyrt.",
+      "period": "2025 - Present",
+      "title": "Java Backend Developer",
+      "description": "Contributing to the development of a microservices architecture supporting the migration of the core banking system."
+    },
+    {
+      "company": "Liligo",
+      "period": "2023 - 2025",
+      "title": "Junior Java Developer",
+      "description": "Designed, developed, monitored, and maintained Java Spring Boot-based microservices in a distributed environment."
+    },
+    {
+      "company": "Erste Bank",
+      "period": "2023",
+      "title": "Integration Developer",
+      "description": "Developed integrations between enterprise software platforms and applications within the company's infrastructure."
+    },
+    {
+      "company": "National Police Headquarters Of Hungary",
+      "period": "2020 - 2022",
+      "title": "Linux System Administrator",
+      "description": "Installed, managed, and monitored Linux servers, ensuring system stability and incident resolution."
+    }
+  ],
+
+  "education": {
+    "schools": [
+      {
+        "name": "University Of Óbuda",
+        "period": "2022 - Ongoing",
+        "field": "Computer Science And Engineering"
+      }
+    ],
+    "trainings": [
+      {
+        "name": "GreenFox Academy",
+        "period": "2022",
+        "field": "Java backend",
+        "technologies": ["Java", "Spring Boot", "Gradle", "JUnit 5"]
+      },
+      {
+        "name": "Training 360",
+        "period": "2020",
+        "field": "Linux Training",
+        "technologies": []
+      }
+    ]
+  }
+}

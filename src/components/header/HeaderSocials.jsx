@@ -2,13 +2,16 @@ import React from 'react'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsGithub } from 'react-icons/bs'
 import { SiCodewars } from 'react-icons/si'
+import { useLanguage } from '../../context/LanguageContext'
 
 const HeaderSocials = () => {
+  const { content } = useLanguage()
+
   return (
     <div className='header__socials'>
-      <a href="https://linkedin.com/in/török-dániel" target="_blank"><BsLinkedin /></a>
-      <a href="https://github.com/TorokDan" target="_blank"><BsGithub /></a>
-      <a href="https://codewars.com/users/Osztor" target="_blank"><SiCodewars /></a>
+      <a href={content.personal.linkedin} target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
+      <a href={content.personal.github} target="_blank" rel="noopener noreferrer"><BsGithub /></a>
+      <a href={content.personal.codewars} target="_blank" rel="noopener noreferrer"><SiCodewars /></a>
     </div>
   )
 }
