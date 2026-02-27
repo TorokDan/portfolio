@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import ME2 from '../../assets/stand.png'
+import ME from '../../assets/torokdannew.jpg'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import { useLanguage } from '../../context/LanguageContext'
@@ -14,13 +14,15 @@ const Header = () => {
         <h1>{content.personal.name}</h1>
         <h5 className="text-light">{content.personal.title}</h5>
         <CTA />
-        <HeaderSocials />
 
-        <div className="me">
-          <img src={ME2} alt="me" />
+        <div className="header__photo-socials">
+          <HeaderSocials />
+          <div className="me">
+            <img src={ME} alt="Török Dániel" />
+          </div>
         </div>
 
-        <a href="#contact" className='scroll__down'>{content.ui.header.scrollDown}</a>
+
       </div>
     </header>
   )
