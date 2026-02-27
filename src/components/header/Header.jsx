@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import ME2 from '../../assets/stand.png'
+import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import { useLanguage } from '../../context/LanguageContext'
 
