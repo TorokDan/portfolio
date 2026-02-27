@@ -1,9 +1,13 @@
-name: portfolio-app
+name: portfolio
+project_id: 6e0bd390-8763-478d-849f-ba2fad6f782c
 region: nyc
 static_sites:
   - name: portfolio-static
     github:
       repo: TorokDan/portfolio
-      branch: main
+      branch: master
+      deploy_on_push: false
     build_command: npm ci && npm run build
     output_dir: build
+    routes:
+      - path: /
