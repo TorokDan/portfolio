@@ -58,7 +58,7 @@
   "jobs": [
     {
       "company": "OTP Bank Nyrt.",
-      "period": "2025 - jelen",
+      "period": "2025 - jelenleg",
       "title": "Java Backend Fejlesztő",
       "description": "Részvétel banki core rendszer migrációt megvalósító mikroszervíz architektúra fejlesztésében."
     },
@@ -66,7 +66,7 @@
       "company": "Liligo",
       "period": "2023 - 2025",
       "title": "Junior Java Fejlesztő",
-      "description": "Java Spring Boot alapú mikroszervízek tervezése, fejlesztése és karbantartása."
+      "description": "Java Spring Boot alapú mikroszervízek tervezése, fejlesztése, monitorozása és karbantartása."
     },
     {
       "company": "Erste Bank",
@@ -78,7 +78,7 @@
       "company": "Magyarország Rendőrfőkapitánysága",
       "period": "2020 - 2022",
       "title": "Linux Rendszeradminisztrátor",
-      "description": "Felelős voltam a szervezet helyi Linux hálózatáért – GNU/Linux telepítéséért, kezeléséért és hibaelhárításáért."
+      "description": "Linux szerverek telepítése, kezelése és hozzájuk köthető hibák monitorozása/elhárítása"
     }
   ],
 
@@ -99,7 +99,7 @@
       },
       {
         "name": "Training 360",
-        "period": "2024",
+        "period": "2020",
         "field": "Linux képzések",
         "technologies": []
       }

@@ -2,7 +2,7 @@
   "personal": {
     "name": "Török Dániel",
     "title": "Backend Developer",
-    "bio": "I am a passionate backend developer who strives to write clean, maintainable, and easy-to-understand code. Over the years, I have specialized in Java-based technologies and the design and development of microservices architectures. My professional journey began as a Linux system administrator, where I gained valuable experience in managing systems and ensuring their reliability. However, I soon discovered that my true passion lies in coding and creating solutions that directly impact users and businesses. In my free time, I enjoy sports like inline skating and wall climbing, which help me stay focused and energized. I am also deeply committed to continuous learning and improving my skills, exploring new technologies, and expanding my knowledge to become a better developer every day. For me, programming is not just a job but a craft I take pride in perfecting.",
+    "bio": "As a backend developer, I design and build systems that are stable, scalable, and maintainable in the long term. I primarily work with Java-based technologies and have a strong interest in microservices architecture and well-structured, clean code. I continuously invest in improving my skills, explore new technologies, and aim to raise the professional standard of every project I contribute to.",
     "email": "dani.torok8@gmail.com",
     "linkedin": "https://www.linkedin.com/in/török-dániel",
     "github": "https://github.com/TorokDan",
@@ -38,51 +38,47 @@
 
   "skills": [
     {
-      "category": "Programming and Scripting Languages",
-      "items": ["Java", "Python", "Bash", "Groovy"]
+      "category": "Backend",
+      "items": ["Java", "Spring Boot", "REST", "Microservice", "Maven"]
     },
     {
-      "category": "Frameworks and Tools",
-      "items": ["Spring Boot", "Spring Security", "Maven", "Gradle", "Kubernetes", "Docker", "Git", "CI/CD", "Helm"]
+      "category": "Database",
+      "items": ["PostgreSQL", "Elasticsearch", "MySQL", "Liquibase", "Flyway"]
     },
     {
-      "category": "Databases and Search Technologies",
-      "items": ["MySQL", "PostgreSQL", "Elasticsearch", "Kibana", "Liquibase", "Flyway"]
+      "category": "Platform",
+      "items": ["Docker", "Kubernetes", "CI/CD", "Git", "Linux"]
     },
     {
-      "category": "Backend & Architecture",
-      "items": ["REST API", "Microservices", "OAuth2", "Linux"]
-    },
-    {
-      "category": "Frontend",
-      "items": ["HTML", "CSS", "JavaScript"]
+      "category": "Other",
+      "items": ["Python", "Bash", "C#"]
     }
   ],
 
   "jobs": [
     {
       "company": "OTP Bank Nyrt.",
-      "period": "2025 - present",
+      "period": "2025 - Present",
       "title": "Java Backend Developer",
-      "description": "Developing and maintaining Java Spring Boot microservices in a banking environment. Working with PostgreSQL and Liquibase for database management, Spring Security with OAuth2 for authentication, and deploying via Docker, CI/CD pipelines, Helm, and Kubernetes."
+      "description": "Contributing to the development of a microservices architecture supporting the migration of the core banking system."
     },
     {
       "company": "Liligo",
       "period": "2023 - 2025",
       "title": "Junior Java Developer",
-      "description": "Planning, developing, and maintaining Java Spring Boot microservices. Built and maintained REST APIs integrated with Elasticsearch and MySQL, using Flyway for database migrations."
+      "description": "Designed, developed, monitored, and maintained Java Spring Boot-based microservices in a distributed environment."
     },
     {
       "company": "Erste Bank",
       "period": "2023",
       "title": "Integration Developer",
-      "description": "I was developing the integration between software platforms, programs and applications in the infrastructure of the company."
+      "description": "Developed integrations between enterprise software platforms and applications within the company's infrastructure."
     },
     {
       "company": "National Police Headquarters Of Hungary",
       "period": "2020 - 2022",
       "title": "Linux System Administrator",
-      "description": "I was responsible for company's local Linux Network – GNU/Linux installation, management, and troubleshooting."
+      "description": "Installed, managed, and monitored Linux servers, ensuring system stability and incident resolution."
     }
   ],
 
@@ -90,7 +86,7 @@
     "schools": [
       {
         "name": "University Of Óbuda",
-        "period": "2022 - present",
+        "period": "2022 - Ongoing",
         "field": "Computer Science And Engineering"
       }
     ],
@@ -103,9 +99,9 @@
       },
       {
         "name": "Training 360",
-        "period": "2024",
-        "field": "Backend / Platform Development",
-        "technologies": ["Java", "Spring Boot", "Docker", "Kubernetes"]
+        "period": "2020",
+        "field": "Linux Training",
+        "technologies": []
       }
     ]
   }
